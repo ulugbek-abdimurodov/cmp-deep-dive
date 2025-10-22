@@ -18,6 +18,5 @@ export class ControlComponent {
   private el = inject(ElementRef);
 
   onClick() {
-    console.log(`Control ${this.label} clicked`);
   }
 }
